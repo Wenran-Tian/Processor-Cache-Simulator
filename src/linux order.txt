@@ -1,0 +1,1 @@
+bunzip2 -kc mat_20M.bz2 ./cache --icache=256:1:2 --dcache=256:1:2 --l2cache=512:8:10 --blocksize=64 --memspeed=100 --inclusive
